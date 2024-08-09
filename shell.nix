@@ -5,6 +5,7 @@ pkgs.mkShell {
   buildInputs = [
     pkgs.R
     pkgs.rPackages.ggplot2
+    pkgs.rPackages.readxl
   ];
 }
 
